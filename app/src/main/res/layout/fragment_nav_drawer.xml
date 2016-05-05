@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nav_drawer_layout"
+    tools:context="com.arpit.onyx.NavDrawer">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/drawerlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:layout_above="@+id/social"
+        android:layout_gravity="center_vertical"
+        android:fadeScrollbars="true">
+
+    </ListView>
+
+    <!--android:scrollbars="vertical"-->
+
+    <!-- for Sponsers logo/ social network site links-->
+    <include
+        android:id="@+id/social"
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+    </include>
+
+
+
+
+</RelativeLayout>

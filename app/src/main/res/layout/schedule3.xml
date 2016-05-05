@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55dd">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Frag C"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout> -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_black_dots">
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/schedulepager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- for displaying own page title as well as adjacent page title-->
+        <android.support.v4.view.PagerTitleStrip
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pager_title_strip"
+            android:layout_gravity="top"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:background="#fff"
+            android:textColor="#000" />
+        <!--style="@style/hTextBoxStyle"-->
+    </android.support.v4.view.ViewPager>
+
+
+</RelativeLayout>

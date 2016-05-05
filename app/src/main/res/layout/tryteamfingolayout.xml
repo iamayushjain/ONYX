@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout="@layout/curve_shape"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/view0"
+                android:layout_width="match_parent"
+
+                android:layout_height="10dp"
+                android:padding="20dp" />
+
+            <TableLayout
+                android:id="@+id/tableLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/view0"
+                android:background="@drawable/curve_shape"
+                android:padding="5dp">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:text="Head Coordinator"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#000"
+                        android:textStyle="bold|italic" />
+                </TableRow>
+
+                <TableRow
+                    android:paddingBottom="5dp" >
+
+                    <RelativeLayout
+                        android:layout_below="@+id/text1"
+                        android:layout_weight="1"
+                        android:paddingTop="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/jyotsana"
+                            />
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView1"
+                            android:layout_centerHorizontal="true"
+                            android:text="Jyotsana Rastogi"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#1565F0"
+                            android:textStyle="bold|italic" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView1"
+                            android:layout_centerHorizontal="true">
+
+
+                            <ImageButton
+                                android:id="@+id/imageButton1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/phone325"
+
+                                />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_toRightOf="@+id/imageButton1"
+                                android:padding="5dp"
+                                android:text="Shailendra Singh"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#1565F0"
+                                android:textStyle="bold|italic" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_below="@+id/text1"
+                        android:layout_weight="1"
+                        android:background="#fff"
+                        android:paddingTop="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/verika" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView2"
+                            android:layout_centerHorizontal="true"
+                            android:text="Vertika Singh"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#1565F0"
+                            android:textStyle="bold|italic" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView3"
+                            android:layout_centerHorizontal="true">
+
+
+                            <ImageButton
+                                android:id="@+id/imageButton2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/phone325" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_toRightOf="@+id/imageButton2"
+                                android:padding="5dp"
+                                android:text="Shailendra Singh"
+
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#1565F0"
+                                android:textStyle="bold|italic" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </TableRow>
+            </TableLayout>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+
+                android:layout_height="10dp"
+                android:layout_below="@+id/tableLayout1"
+                android:padding="20dp" />
+
+            <TableLayout
+                android:id="@+id/tableLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/view1"
+                android:background="@drawable/curve_shape"
+                android:padding="5dp">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:text="Marketing Team"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#000"
+                        android:textStyle="bold|italic" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row1"
+                    android:paddingTop="10dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_below="@+id/text2"
+                        android:layout_weight="1"
+
+                        >
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/soman" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView3"
+                            android:layout_centerHorizontal="true"
+                            android:text="Soman Pochhali"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#1565F0"
+                            android:textStyle="bold|italic" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView5"
+                            android:layout_centerHorizontal="true">
+
+
+                            <ImageButton
+                                android:id="@+id/imageButton3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/phone325" />
+
+                            <TextView
+                                android:id="@+id/textView6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_toRightOf="@+id/imageButton3"
+                                android:padding="5dp"
+                                android:text="8527787397"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#1565F0"
+                                android:textStyle="bold|italic" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_below="@+id/text2"
+                        android:layout_weight="1"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/talat" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView4"
+                            android:layout_centerHorizontal="true"
+                            android:text="Talat Shakeel"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#1565F0"
+                            android:textStyle="bold|italic" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView7"
+                            android:layout_centerHorizontal="true">
+
+
+                            <ImageButton
+                                android:id="@+id/imageButton4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/phone325" />
+
+                            <TextView
+                                android:id="@+id/textView8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_toRightOf="@+id/imageButton4"
+                                android:padding="5dp"
+                                android:text="Shailendra Singh"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#1565F0"
+                                android:textStyle="bold|italic" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_below="@+id/row1"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp">
+
+                    <RelativeLayout
+
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/rai" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView5"
+                            android:layout_centerHorizontal="true"
+                            android:text="Aishwarya Rai"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#1565F0"
+                            android:textStyle="bold|italic" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView9"
+                            android:layout_centerHorizontal="true">
+
+
+                            <ImageButton
+                                android:id="@+id/imageButton5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/phone325" />
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_toRightOf="@+id/imageButton5"
+                                android:text="Shailendra Singh"
+
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#1565F0"
+                                android:textStyle="bold|italic" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/diksha" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView6"
+                            android:layout_centerHorizontal="true"
+                            android:text="Diksha Mittal"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#1565F0"
+                            android:textStyle="bold|italic" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView11"
+                            android:layout_centerHorizontal="true">
+
+
+                            <ImageButton
+                                android:id="@+id/imageButton6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/phone325" />
+
+                            <TextView
+                                android:id="@+id/textView12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_toRightOf="@+id/imageButton6"
+                                android:text="Shailendra Singh"
+
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#1565F0"
+                                android:textStyle="bold|italic" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </TableRow>
+            </TableLayout>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+
+                android:layout_height="10dp"
+                android:layout_below="@+id/tableLayout2"
+                android:padding="20dp" />
+
+            <TableLayout
+                android:id="@+id/tableLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/view2"
+                android:background="@drawable/curve_shape"
+                android:padding="5dp">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:text="Creative Team"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#000"
+                        android:textStyle="bold|italic" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row2"
+                    android:paddingTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_below="@+id/text4"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/sarash" />
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView7"
+                            android:layout_centerHorizontal="true"
+                            android:text="Saransh Gupta"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#1565F0"
+                            android:textStyle="bold|italic" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView13"
+                            android:layout_centerHorizontal="true">
+
+
+                            <ImageButton
+                                android:id="@+id/imageButton7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/phone325" />
+
+                            <TextView
+                                android:id="@+id/textView14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_toRightOf="@+id/imageButton7"
+                                android:text="8800844282"
+                                android:padding="5dp"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#1565F0"
+                                android:textStyle="bold|italic" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_below="@+id/text4"
+                        android:layout_weight="1"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/rajat" />
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView8"
+                            android:layout_centerHorizontal="true"
+                            android:text="Rajat Srivastava"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#1565F0"
+                            android:textStyle="bold|italic" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView15"
+                            android:layout_centerHorizontal="true">
+
+
+                            <ImageButton
+                                android:id="@+id/imageButton8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/phone325" />
+
+                            <TextView
+                                android:id="@+id/textView16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_toRightOf="@+id/imageButton8"
+                                android:text="8802807358"
+                                android:padding="5dp"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#1565F0"
+                                android:textStyle="bold|italic" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </TableRow>
+
+
+                <TableRow
+                    android:paddingBottom="5dp">
+
+                    <RelativeLayout
+                        android:layout_below="@+id/row2"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/sristi" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView9"
+                            android:layout_centerHorizontal="true"
+                            android:text="Srishti Asthana"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#1565F0"
+                            android:textStyle="bold|italic" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView17"
+                            android:layout_centerHorizontal="true">
+
+
+                            <ImageButton
+                                android:id="@+id/imageButton9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/phone325" />
+
+                            <TextView
+                                android:id="@+id/textView18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_toRightOf="@+id/imageButton9"
+                                android:text="Shailendra Singh"
+
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#1565F0"
+                                android:textStyle="bold|italic" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </TableRow>
+            </TableLayout>
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+
+                android:layout_height="10dp"
+                android:layout_below="@+id/tableLayout4"
+                android:padding="20dp" />
+
+            <TableLayout
+                android:id="@+id/tableLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/view3"
+                android:background="@drawable/curve_shape"
+                android:padding="5dp">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/text5"
+                        android:gravity="center"
+                        android:paddingTop="5dp"
+                        android:text="Logistics Team"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#000"
+                        android:textStyle="bold|italic" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/row3"
+                    android:paddingTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_below="@+id/text5"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView10"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/abhijeet" />
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView10"
+                            android:layout_centerHorizontal="true"
+                            android:text="Abhijeet Sinha"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#1565F0"
+                            android:textStyle="bold|italic" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView19"
+                            android:layout_centerHorizontal="true">
+
+
+                            <ImageButton
+                                android:id="@+id/imageButton10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/phone325" />
+
+                            <TextView
+                                android:id="@+id/textView20"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_toRightOf="@+id/imageButton10"
+                                android:text="9810748223"
+                                android:padding="5dp"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#1565F0"
+                                android:textStyle="bold|italic" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_below="@+id/text5"
+                        android:layout_weight="1"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/sid" />
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView11"
+                            android:layout_centerHorizontal="true"
+                            android:text="Siddharth"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#1565F0"
+                            android:textStyle="bold|italic" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView21"
+                            android:layout_centerHorizontal="true">
+
+
+                            <ImageButton
+                                android:id="@+id/imageButton11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/phone325" />
+
+                            <TextView
+                                android:id="@+id/textView22"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_toRightOf="@+id/imageButton11"
+                                android:text="8287683957"
+                                android:padding="5dp"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#1565F0"
+                                android:textStyle="bold|italic" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </TableRow>
+
+
+                <TableRow
+                    android:paddingBottom="5dp">
+
+                    <RelativeLayout
+                        android:layout_below="@+id/row3"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/gargi"
+                           />
+
+                        <TextView
+                            android:id="@+id/textView23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView12"
+                            android:layout_centerHorizontal="true"
+                            android:text="Gargi Gupta"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#1565F0"
+                            android:textStyle="bold|italic" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView23"
+                            android:layout_centerHorizontal="true">
+
+
+                            <ImageButton
+                                android:id="@+id/imageButton12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/phone325" />
+
+                            <TextView
+                                android:id="@+id/textView24"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_toRightOf="@+id/imageButton12"
+                                android:text="Shailendra Singh"
+
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:textColor="#1565F0"
+                                android:textStyle="bold|italic" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </TableRow>
+            </TableLayout>
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/tableLayout5"
+                android:padding="20dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

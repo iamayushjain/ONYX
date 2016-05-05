@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">ONYX</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="menu">
+        <item>About Us</item>
+        <item>Events</item>
+        <item>Schedule</item>
+        <item>Register</item>
+        <item>Lingo Freaks</item>
+    </string-array>
+
+    <string-array name="schedule_event_name_day1">
+        <item>Cartoon CrossWord</item>
+        <item>Dragon Balls Hunt</item>
+        <item>Literary Marathon</item>
+        <item>The Flair Of Unorthodoxy</item>
+        <item>Bilingual Debate</item>
+    </string-array>
+
+    <string-array name="venue_day1">
+        <item>Venue1</item>
+        <item>Venue2</item>
+        <item>Venue3</item>
+        <item>Venue4</item>
+        <item>Venue5</item>
+    </string-array>
+
+    <string-array name="time_day1">
+        <item>time1</item>
+        <item>time2</item>
+        <item>time3</item>
+        <item>time4</item>
+        <item>time5</item>
+    </string-array>
+
+    <string-array name="schedule_event_name_day2">
+        <item>Naughty Notes</item>
+        <item>The Theatre</item>
+        <item>DC vs Marvel</item>
+        <item>Connecting Two Cartoons</item>
+        <item>Dexters Corner- The paper presentation</item>
+    </string-array>
+
+    <string-array name="venue_day2">
+        <item>Venue1</item>
+        <item>Venue2</item>
+        <item>Venue3</item>
+        <item>Venue4</item>
+        <item>Venue5</item>
+    </string-array>
+
+    <string-array name="time_day2">
+        <item>time1</item>
+        <item>time2</item>
+        <item>time3</item>
+        <item>time4</item>
+        <item>time5</item>
+    </string-array>
+
+
+</resources>
